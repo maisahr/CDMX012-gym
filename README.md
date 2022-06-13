@@ -1,43 +1,62 @@
-# Gimnasio
+---
+difficulty:
+  - advance
+OAs:
+  - HTML
+  - CSS
+  - JS
+projects:
+  - labnotes
+  - burger-queen
+---
 
-## Sesiones
+# Rocket Lab
 
-- ### [Sesión 01 (Kick-off)](./session-01/README.md)
+__Objetivo:__
 
-- ### [Sesión 02](./session-02/README.md)
+El reto consiste en consumir una __api__ y replicar el sitio __RocketLab__,
+este será el resultado a lograr:
 
-- ### [Sesión 03](./session-03/README.md)
+![Freelancer Website](fullpage.png)
 
-- ### [Sesión 04](./session-04/README.md)
+Enfócate en obtener la maquetación lo más parecido posible y consumir la API para
+visualizar la información de las capsulas que se han mandado al espacio.
 
-- ### [Sesión 05](./session-05/README.md)
+## Consideraciones
 
-- ### [Sesión 06](./session-06/README.md)
+> - Puedes usar un framework de Javascript, librería o  vanilla.
+>
+> - El endpoint para consumir es [https://api.spacexdata.com/v3/capsules](https://api.spacexdata.com/v3/capsules)
+>y te puedes guiar en la documentación oficial en [https://docs.spacexdata.com](https://docs.spacexdata.com)
+> para revisar como hacer el consumo.
+>
+> - Dentro de la carpeta `assets` encontrarás todas las imágenes necesarias
+>para completar tu proyecto.
+>
+> - Esta web utiliza la tipografías: `Lato`, sans-serif;.
+>
+> - La paleta de colores es:
+> >
+> > - `#5A5A5A` Texto
+> > - `#b20ecf46`, `#ca5ad72f` Header
+> > - Gradientes:
+> > >
+> > > - `#CE9FFC`, `#7367F0`
+> > > - `#65799b`, `#5e2563`
+> > > - `#7117ea`, `#ea6060`
+>
+> - Si quieres consultar el sitio web podrás hacerlo en [https://rocket-laboratoria.vercel.app](https://rocket-laboratoria.vercel.app)
+>
+> - En algunas ocasiones nos vamos a enfrentar a retos donde demoremos mas de un
+> dia en terminarlo (este reto puede ser el caso).
 
-- ### [Sesión 07](./session-07/README.md)
+## A tener en cuenta
 
-- ### [Sesión 08](./session-08/README.md)
-
-- ### [Sesión 09](./session-09/README.md)
-
-- ### [Sesión 10 (Retrospective) 💫](./session-10/README.md)
-
-- ### [Sesión 11](./session-11/README.md)
-
-- ### [Sesión 12](./session-12/README.md)
-
-- ### [Tech mock mock interview one](./tech-mock-mock-interview-01/README.md)
-
-- ### [Sesión 13](./session-13/README.md)
-
-- ### [Tech mock mock interview two](./tech-mock-mock-interview-02/README.md)
-
-- ### [Sesión 14](./session-14/README.md)
-
-- ### [Sesión 15](./session-15/README.md)
-
-- ### [Sesión 16](./session-16/README.md)
-
-- ### [Retrospective tech mock interview](./session-17/README.md)
-
-- ### [Retrospectiva cierre gym CDMX012](./session-18/README.md)
+> - Trabaja colaborativamente en dupla o triada
+>
+> - Puedes consultar la siguiente documentación:
+> >
+> > - [https://bennettfeely.com/clippy](https://bennettfeely.com/clippy/)
+> > - [https://gradients.cssgears.com](https://gradients.cssgears.com)
+> > - [https://developer.mozilla.org/es/docs/Web/CSS/@keyframes](https://developer.mozilla.org/es/docs/Web/CSS/@keyframes)
+> > - [https://developer.mozilla.org/es/docs/Web/API/Fetch_API](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
