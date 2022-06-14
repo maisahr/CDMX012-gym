@@ -1,6 +1,7 @@
 import { Header } from './components/Header/Header';
-import { Footer } from './components/Footer/Footer';
 import { CapsulesStatus } from './components/CapsulesStatus/CapsulesStatus';
+import { AllCapsules } from './components/AllCapsules/AllCapsules';
+import { Footer } from './components/Footer/Footer';
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header></Header>
       <CapsulesStatus></CapsulesStatus>
+      <AllCapsules></AllCapsules>
       <Footer></Footer>
     </>
   );
