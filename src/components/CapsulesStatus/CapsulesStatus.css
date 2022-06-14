@@ -1,16 +1,16 @@
-section {
+.capsulesStatus {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-section div {
+.capsulesStatus div {
     display: flex;
     justify-content: center;
     height: 120px;
 }
 
-figure {
+.capsulesStatus figure {
     color: white;
     display: flex;
     justify-content: center;

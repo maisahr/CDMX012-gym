@@ -5,7 +5,7 @@ import unknown from '../../assets/rocketUnknown.svg'
 
 export const CapsulesStatus = () => {
     return(
-        <section>
+        <section className='capsulesStatus'>
             <h2>Capsules status:</h2>
             <div>
                 <figure id='active'>
