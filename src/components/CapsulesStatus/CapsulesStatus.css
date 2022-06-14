@@ -1,0 +1,38 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section div {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+figure {
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 2%;
+    border-radius: 0.5rem;
+}
+
+#active {
+    background-image: linear-gradient(#CE9FFC, #7367F0);
+}
+
+#destroyed {
+    background-image: linear-gradient(#65799b, #5e2563);
+}
+
+#unknown {
+    background-image: linear-gradient(#7117ea, #ea6060);
+}
+
+img {
+    width: 10%;
+    align-self: center;
+}
