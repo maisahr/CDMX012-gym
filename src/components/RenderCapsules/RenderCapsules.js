@@ -6,12 +6,15 @@ import destroyed from '../../assets/rocketDeactivate.svg'
 export const RenderCapsules = ({capsule}) => {
     let icon = ''
 
-    if(capsule.status === 'active'){
-        icon = active
-    } if(capsule.status === 'unknown'){
-        icon = unknown
-    } else {
-        icon = destroyed
+    switch(capsule.status){
+        default:
+            icon = destroyed;
+            break;
+        case 'active':
+            icon = active;
+            break;
+        case 'unknown':
+            icon = unknown;
     }
 
     return(

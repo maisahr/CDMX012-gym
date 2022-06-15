@@ -1,6 +1,12 @@
 .capsule {
     box-shadow: 0 2px 5px 0 rgb(3 6 26/15%);
     border-radius: 0.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-start;
 }
 
 .capsule p {
