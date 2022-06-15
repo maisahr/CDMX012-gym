@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { RenderCapsules } from "../RenderCapsules/RenderCapsules";
+import './AllCapsules.css';
 
 export const AllCapsules = () => {
     const [capsules, setCapsules] = useState();
@@ -17,13 +18,15 @@ export const AllCapsules = () => {
     console.log(capsules)
 
     return(
-        <section>
+        <section className='allCapsules'>
             <h2>All capsules:</h2>
-            {capsules?.map((capsule, index) => {
-                return(
-                    <RenderCapsules capsule={capsule} key={index}></RenderCapsules>
-                )
-            })}
+            <div>
+                {capsules?.map((capsule, index) => {
+                    return(
+                        <RenderCapsules capsule={capsule} key={index}></RenderCapsules>
+                    )
+                })}
+            </div>
         </section>
     )
 }

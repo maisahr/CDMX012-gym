@@ -1,11 +1,12 @@
-figure {
-    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.26);
+.capsule {
+    box-shadow: 0 2px 5px 0 rgb(3 6 26/15%);
+    border-radius: 0.5rem;
 }
 
-figure p {
+.capsule p {
     color: #5A5A5A;
 }
 
-figure h3 {
+.capsule h3 {
     color:#5A5A5A;
 }
