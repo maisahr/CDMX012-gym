@@ -2,6 +2,8 @@
     box-shadow: 0 2px 5px 0 rgb(3 6 26/15%);
     border-radius: 0.5rem;
     padding: 2rem;
+    margin: 1% 2%;
+    width: 15%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -15,4 +17,12 @@
 
 .capsule h3 {
     color:#5A5A5A;
+}
+
+
+@media only screen and (max-width: 1142px) {
+    .capsule{
+        margin: 1% 2%;
+        width: 11%;
+    }
 }

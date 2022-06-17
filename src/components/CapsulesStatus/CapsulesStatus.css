@@ -13,12 +13,16 @@
 .capsulesStatus figure {
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 30%;
     margin: 0 1.5%;
     padding: 2%;
     border-radius: 0.5rem;
     box-shadow: 0 2px 5px 0 rgb(3 6 26/15%);
+}
+
+.capsulesStatus figcaption {
+    width: 24%;
 }
 
 #active {
@@ -35,5 +39,5 @@
 
 img {
     width: 10%;
-    align-self: center;
+    margin-left: 24%;
 }
