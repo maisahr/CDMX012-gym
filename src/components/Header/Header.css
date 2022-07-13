@@ -1,3 +1,20 @@
+@keyframes moveInFromLeft {
+    0% {opacity: 0; transform: translate(-100px, 0px)}
+    75% {transform: translate(10px, 0px);}
+    100% {opacity: 1;}
+}
+
+@keyframes moveInFromRight {
+    0% {opacity: 0; transform: translate(100px, 0px)}
+    75% {transform: translate(-10px, 0px);}
+    100% {opacity: 1;}
+}
+
+@keyframes moveInFromBottom {
+    0% {opacity: 0; transform: translate(0px, 100px)}
+    100% {opacity: 1;}
+}
+
 header {
     padding: 5%;
     height: 75vh;
@@ -36,6 +53,8 @@ button {
     border-radius: 2rem;
     background-color: white;
     color: #5A5A5A;
+    animation-name: moveInFromBottom;
+    animation-duration: 3s;
 }
 
 header h1{
@@ -44,6 +63,8 @@ header h1{
     letter-spacing: 3rem;
     margin: 0;
     margin-right: -3rem;
+    animation-name: moveInFromLeft;
+    animation-duration: 3s;
 }
 
 header p{
@@ -52,6 +73,8 @@ header p{
     letter-spacing: 0.8rem;
     margin-right: -0.8rem;
     margin-bottom: 5rem;
+    animation-name: moveInFromRight;
+    animation-duration: 3s;
 }
 
 @media only screen and (max-width: 1142px) {
