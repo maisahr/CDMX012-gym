@@ -1,20 +1,3 @@
-@keyframes moveInFromLeft {
-    0% {opacity: 0; transform: translate(-100px, 0px)}
-    75% {transform: translate(10px, 0px);}
-    100% {opacity: 1;}
-}
-
-@keyframes moveInFromRight {
-    0% {opacity: 0; transform: translate(100px, 0px)}
-    75% {transform: translate(-10px, 0px);}
-    100% {opacity: 1;}
-}
-
-@keyframes moveInFromBottom {
-    0% {opacity: 0; transform: translate(0px, 100px)}
-    100% {opacity: 1;}
-}
-
 header {
     padding: 5%;
     height: 75vh;
@@ -46,15 +29,23 @@ header {
     margin: -3% 0 0 -3%;
 }
 
-button {
+.button, button{
     width: 8rem;
     height: 4rem;
     border-style: none;
     border-radius: 2rem;
-    background-color: white;
     color: #5A5A5A;
+}
+
+button {
     animation-name: moveInFromBottom;
-    animation-duration: 3s;
+    animation-duration: 2s;
+    background-color: white;
+}
+
+.button:hover {
+    animation-name: buttonAnimation;
+    animation-duration: 0.5s;
 }
 
 header h1{

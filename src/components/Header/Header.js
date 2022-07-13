@@ -1,4 +1,5 @@
 import './Header.css'
+import './HeaderAnimations.css'
 import rocket from '../../assets/rocket.svg'
 
 export const Header = () => {
@@ -8,7 +9,7 @@ export const Header = () => {
             <div className='headerTexts'>
                 <h1>ROCKET</h1>
                 <p>IMPROVING ALL THE TIME</p>
-                <button>START</button>
+                <a className='button' href='javascript: void(0)'><button>START</button></a>
             </div>
         </header>
     );
